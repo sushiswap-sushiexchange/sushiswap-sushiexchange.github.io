@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&amp;display=swap');
+body{
+    background:#000 !important;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-nav li{
+    margin-right: 28px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.px-8 {
+    padding-right: 6rem;
+    padding-left: 6rem;
+    @media (max-width: 767.98px) {
+        padding-right: 2rem;
+        padding-left: 2rem;
+     }
+}
+.banner h1{ 
+    font-size: 50px;
+    color: #fff;
+    font-weight: 800;
+}
+.banner p{ 
+    font-size: 19px;
+    color: #a19d9d;
+    font-weight: 500;
+}
+.eth{
+    position: absolute;
+    right: 0;
+}
+.banner img{
+    transform: scale(1.1) translate(10px, 10px);
+}
+button.navbar-toggler {
+    color: #fff !important;
+    background: #626262;
+}
+.search{
+position: relative;
+}
+.search img{
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 25px;
+    height: 25px;
+    z-index: 9999;
+    filter: brightness(0.5) invert(0.5);
+}
+input.form-control.rounded.py-3.fs-5 {
+    padding: 17px 46px !important;
+    background: #262626;
+    border: none;
+    border-radius: 10px !important;
+}
+.search .dropdown{
+    position: absolute;
+    right: 16px;
+    top: 14px;
+}
+.priace h3{
+    color: #fff;
+    font-weight: 800;
+}
+.priace p{
+    color: #ccc;
+    font-size: 13px;
+}
+section.pt-10 {
+    margin-top: 7rem;
+}
+.coins{
+    height: 600px;
+}
+.days{
+    padding: 170px 0;
+    background: #040404;
+    border-top: 1px solid #262626;
+}
+.scroll-hide {
+    color: #fff;
+    padding: 10px; 
+}
+.scroll-hide{
+  text-align:center;
+}
+.coins .wealth{
+    font-size: 50px;
+}
+.doesnt{
+    color: #a3a2a3 !important;
+}
+.build h2{
+    font-size: 44px !important;
+}
+.bbb{
+    background: #262626;
+    padding: 49px;
+    border-radius: 18px;
+    transition: 0.5s;
+}
+.bbb:hover{
+    transform: scale(1.04);
+}
+.bbb h5{
+    font-size: 22px;
+}
+.fffdd p{
+    color: #94a3a7;
+    font-size: 9px;
+    margin-top: 10px;
+}
+.fffdd h6{
+    font-size: 12px;
+    color: #f2f3f3;
+}
+.fffdd ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #94a3a7;
+}
